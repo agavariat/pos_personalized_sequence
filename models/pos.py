@@ -5,7 +5,8 @@ from odoo import fields, models
 class PosConfig(models.Model):
     _inherit = 'pos.config'
 
-    personalized_sequence_id = fields.Many2one('ir.sequence', 'personalized Order IDs Sequence')
+    personalized_sequence_id = fields.Many2one('ir.sequence', 'Personalized Order IDs Sequence')
+    refund_sequence_id = fields.Many2one('ir.sequence', 'Refund personalized Order IDs Sequence')
 
 
 class PosOrder(models.Model):

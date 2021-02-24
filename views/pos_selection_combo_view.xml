@@ -16,6 +16,10 @@
                                 Need to print Personalized sequence of order
                                 <field name="personalized_sequence_id"/>
                             </div>
+                            <div class="text-muted">
+                                Need to print Refund sequence of order<br/>
+                                <field name="refund_sequence_id"/>
+                            </div>
                         </div>
                     </div>
                 </xpath>

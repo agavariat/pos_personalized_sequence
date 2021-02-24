@@ -13,13 +13,20 @@ odoo.define('pos_personalized_sequence.pos_sequence', function (require) {
         validate_order: function(force_validation) {
             var self = this;
             if (this.order_is_valid(force_validation)) {
+                var order = this.pos.get('selectedOrder');
+                var sequence_id = false;
+                if (order.returned_order_id) {
+                    sequence_id = this.pos.config.refund_sequence_id;
+                } else {
+                    sequence_id = this.pos.config.personalized_sequence_id;
+                }
                 if (this.pos.config.personalized_sequence_id) {
                     rpc.query({
                         model: 'pos.order',
                         method: 'pos_personalized_sequence',
                         args: [
                             self.pos.get('selectedOrder'),
-                            self.pos.config.personalized_sequence_id[0]
+                            sequence_id[0]
                         ]
                     }).then(function (data) {
                         var currentOrder = self.pos.get('selectedOrder');
