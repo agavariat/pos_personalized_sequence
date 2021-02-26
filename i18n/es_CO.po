@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 12.0-20201126\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 21:38+0000\n"
-"PO-Revision-Date: 2021-02-26 16:43-0500\n"
+"PO-Revision-Date: 2021-02-26 16:49-0500\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -25,12 +25,12 @@ msgstr ""
 #. module: pos_personalized_sequence
 #: model_terms:ir.ui.view,arch_db:pos_personalized_sequence.view_pos_config_inherit_form
 msgid "Need to print Personalized sequence of order"
-msgstr "Secuencia Principal Para Resolución POS"
+msgstr "Secuencia Principal Para Resolución POS <br/>"
 
 #. module: pos_personalized_sequence
 #: model_terms:ir.ui.view,arch_db:pos_personalized_sequence.view_pos_config_inherit_form
 msgid "Need to print Refund sequence of order<br/>"
-msgstr "Secuencia para la Nota de Crédito"
+msgstr "Secuencia para la Nota de Crédito<br/>"
 
 #. module: pos_personalized_sequence
 #: model:ir.model.fields,field_description:pos_personalized_sequence.field_pos_config__personalized_sequence_id
