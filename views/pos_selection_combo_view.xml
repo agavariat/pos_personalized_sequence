@@ -12,6 +12,10 @@
                         </div>
                         <div class="o_setting_right_pane">
                             <label for="personalized_sequence_id"/>
+                            <div>
+                                Coloque solo el Numero de la Resolución POS
+                                <field name="resolucion_id"/>
+                            </div>
                             <div class="text-muted">
                                 Need to print Personalized sequence of order
                                 <field name="personalized_sequence_id"/>

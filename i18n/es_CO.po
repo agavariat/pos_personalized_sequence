@@ -1,0 +1,58 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_personalized_sequence
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20201126\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-26 21:38+0000\n"
+"PO-Revision-Date: 2021-02-26 16:43-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_CO\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: pos_personalized_sequence
+#: model_terms:ir.ui.view,arch_db:pos_personalized_sequence.view_pos_config_inherit_form
+msgid "Coloque solo el Numero de la Resolución POS"
+msgstr ""
+
+#. module: pos_personalized_sequence
+#: model_terms:ir.ui.view,arch_db:pos_personalized_sequence.view_pos_config_inherit_form
+msgid "Need to print Personalized sequence of order"
+msgstr "Secuencia Principal Para Resolución POS"
+
+#. module: pos_personalized_sequence
+#: model_terms:ir.ui.view,arch_db:pos_personalized_sequence.view_pos_config_inherit_form
+msgid "Need to print Refund sequence of order<br/>"
+msgstr "Secuencia para la Nota de Crédito"
+
+#. module: pos_personalized_sequence
+#: model:ir.model.fields,field_description:pos_personalized_sequence.field_pos_config__personalized_sequence_id
+msgid "Personalized Order IDs Sequence"
+msgstr "Configuración para la Resolución POS"
+
+#. module: pos_personalized_sequence
+#: model:ir.model,name:pos_personalized_sequence.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración del Punto de Venta"
+
+#. module: pos_personalized_sequence
+#: model:ir.model,name:pos_personalized_sequence.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Órdenes del Punto de Venta"
+
+#. module: pos_personalized_sequence
+#: model:ir.model.fields,field_description:pos_personalized_sequence.field_pos_config__refund_sequence_id
+msgid "Refund personalized Order IDs Sequence"
+msgstr "Configuración para Nota de Crédito"
+
+#. module: pos_personalized_sequence
+#: model:ir.model.fields,field_description:pos_personalized_sequence.field_pos_config__resolucion_id
+msgid "Resolucion POS"
+msgstr "Resolución POS"
